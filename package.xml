@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>IteraResearch_PageToCategory</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses">Lesser General Public License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow to assign CMS page to category navigation.</summary>
+    <description>Allow to assign CMS page to category navigation so categories can be used as CMS page navigation. CMS page URL and title will be output in the main menu instead of catalog category URL and title if category has assigned page.</description>
+    <notes>Rewrites category model, page model, category navigation block.</notes>
+    <authors><author><name>IteraResearch</name><user>IteraResearch</user><email>magentocommerce@itera-research.com</email></author></authors>
+    <date>2015-07-01</date>
+    <time>03:42:55</time>
+    <contents><target name="magecommunity"><dir name="IteraResearch"><dir name="PageToCategory"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><dir name="Edit"><dir name="Tab"><file name="Categories.php" hash="c4c3291a6926a0e18267240e0def3b58"/></dir></dir></dir></dir></dir><dir name="Catalog"><file name="Navigation.php" hash="8745f30b0aabce6b110baba9a8a4168b"/></dir></dir><dir name="Helper"><file name="Data.php" hash="afc424ef91c2b3f530649d73d38d6d9c"/></dir><dir name="Model"><dir name="Catalog"><file name="Category.php" hash="4e22e7dd4f8218dd4fe64432458a035d"/></dir><file name="Observer.php" hash="3cfec186dc9a3973ff319bf5c24dc8a0"/><file name="Page.php" hash="6e7aab822cf14e5284b8ecb37d64a150"/><file name="Relation.php" hash="af446ebd6ee264fc94cb4f332e9f0920"/><dir name="Resource"><dir name="Relation"><file name="Collection.php" hash="dd4fb735607195227152fcd69a646d78"/></dir><file name="Relation.php" hash="ec056a215866b382b87e4ad187977a4a"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="RelationController.php" hash="893782079355de138d42ee04ebd65209"/></dir></dir><dir name="etc"><file name="config.xml" hash="e31c6ac5477f1131a97f1634f5331779"/><file name="system.xml" hash="508f63527decf891dd19dbb669785a32"/></dir><dir name="sql"><dir name="pagetocategory_setup"><file name="install-1.0.0.php" hash="819207047a8777f9cd18bbf1e37e40a7"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="IteraResearch_PageToCategory.xml" hash="e6bc71a832ac1ae36ac35b5383c0ae52"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="iteraresearch"><file name="pagetocategory.xml" hash="1e478b989b13df861f402fe915bd19c3"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.2.0</min><max>1.9.1.0</max></package></required></dependencies>
+</package>
