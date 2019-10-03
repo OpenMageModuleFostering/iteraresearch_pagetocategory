@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/IteraResearch_PageToCategory",
+    "name": "OpenMageModuleFostering\/IteraResearch_PageToCategory",
     "type": "magento-module",
     "license": "Lesser-General-Public-License",
     "homepage": "",
     "description": "Allow to assign CMS page to category navigation.",
     "authors": [
-    {
-        "name": "IteraResearch",
-        "email": "magentocommerce@itera-research.com"
-    }
-],
+        {
+            "name": "IteraResearch",
+            "email": "magentocommerce@itera-research.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
